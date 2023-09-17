@@ -11,7 +11,7 @@ import SDWebImage
 final class TMDBTitleCollectionViewCell: UICollectionViewCell {
     static let identifier = "TMDBTitleCollectionViewCell"
     
-    private let posterImageView: UIImageView = {
+    internal let posterImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
@@ -34,10 +34,11 @@ final class TMDBTitleCollectionViewCell: UICollectionViewCell {
     }
     
     public func configure(with model: String) {
-        guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model)") else {
+        guard let url = URL(string: "https://image.tmdb.org/t/p/w500\(model)") else {
             return
         }
         
         posterImageView.sd_setImage(with: url, completed: nil)
+        //print("DEBUG: Image URL: \(url)")
     }
 }

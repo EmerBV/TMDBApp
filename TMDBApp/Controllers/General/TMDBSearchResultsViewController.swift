@@ -28,10 +28,7 @@ final class TMDBSearchResultsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .systemBackground
         view.addSubview(searchResultsCollectionView)
-        
         searchResultsCollectionView.delegate = self
         searchResultsCollectionView.dataSource = self
     }
