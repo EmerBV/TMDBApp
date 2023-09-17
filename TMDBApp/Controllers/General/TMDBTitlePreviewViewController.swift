@@ -21,7 +21,7 @@ final class TMDBTitlePreviewViewController: UIViewController {
     private let voteAverageLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = .systemFont(ofSize: 18, weight: .regular)
+        label.font = .systemFont(ofSize: 18, weight: .semibold)
         label.textColor = .white
         label.numberOfLines = 0
         return label
@@ -85,7 +85,7 @@ final class TMDBTitlePreviewViewController: UIViewController {
     
     func configure(with model: TMDBTitlePreviewViewModel) {
         titleLabel.text = model.title
-        voteAverageLabel.text = "Vote average: \(model.voteAverage)"
+        voteAverageLabel.text = "Vote average: \(model.voteAverage.toString())"
         overviewLabel.text = model.titleOverview
         
         guard let url = URL(string: "https://www.youtube.com/embed/\(model.youtubeView.id.videoId)") else {

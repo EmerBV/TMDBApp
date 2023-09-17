@@ -1,5 +1,5 @@
 //
-//  Extensions.swift
+//  String.swift
 //  TMDBApp
 //
 //  Created by Emerson Balahan Varona on 16/9/23.

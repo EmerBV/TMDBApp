@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		791002012AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */; };
-		791002032AB63B16008AC5DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791002022AB63B16008AC5DF /* Extensions.swift */; };
+		791002032AB63B16008AC5DF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791002022AB63B16008AC5DF /* String.swift */; };
 		79489F6F2AB70E890001E6D4 /* TMDBSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79489F6E2AB70E890001E6D4 /* TMDBSearchViewController.swift */; };
 		79489F712AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79489F702AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift */; };
 		79489F732AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79489F722AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift */; };
@@ -30,6 +30,10 @@
 		79504FC92AB630530091A4CF /* TMDBAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FC82AB630530091A4CF /* TMDBAPICaller.swift */; };
 		79504FCB2AB630A10091A4CF /* TMDBTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FCA2AB630A10091A4CF /* TMDBTitle.swift */; };
 		79504FCD2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FCC2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift */; };
+		79E4E21F2AB746F900C22F68 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4E21E2AB746F900C22F68 /* Double.swift */; };
+		79E4E2222AB752F300C22F68 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 79E4E2212AB752F300C22F68 /* SDWebImage */; };
+		79E4E2242AB7566800C22F68 /* TMDBHomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4E2232AB7566800C22F68 /* TMDBHomeViewControllerTests.swift */; };
+		79E4E2262AB7652400C22F68 /* TMDBAPICallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4E2252AB7652400C22F68 /* TMDBAPICallerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +55,7 @@
 
 /* Begin PBXFileReference section */
 		791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitlePreviewViewController.swift; sourceTree = "<group>"; };
-		791002022AB63B16008AC5DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		791002022AB63B16008AC5DF /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		79489F6E2AB70E890001E6D4 /* TMDBSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBSearchViewController.swift; sourceTree = "<group>"; };
 		79489F702AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitleTableViewCell.swift; sourceTree = "<group>"; };
 		79489F722AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBSearchResultsViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,9 @@
 		79504FC82AB630530091A4CF /* TMDBAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPICaller.swift; sourceTree = "<group>"; };
 		79504FCA2AB630A10091A4CF /* TMDBTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitle.swift; sourceTree = "<group>"; };
 		79504FCC2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBYoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		79E4E21E2AB746F900C22F68 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		79E4E2232AB7566800C22F68 /* TMDBHomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBHomeViewControllerTests.swift; sourceTree = "<group>"; };
+		79E4E2252AB7652400C22F68 /* TMDBAPICallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPICallerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E4E2222AB752F300C22F68 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +119,7 @@
 				79504F8F2AB6273F0091A4CF /* TMDBAppTests */,
 				79504F992AB6273F0091A4CF /* TMDBAppUITests */,
 				79504F772AB6273E0091A4CF /* Products */,
+				79E4E2202AB752F300C22F68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				79504F902AB6273F0091A4CF /* TMDBAppTests.swift */,
+				79E4E2232AB7566800C22F68 /* TMDBHomeViewControllerTests.swift */,
+				79E4E2252AB7652400C22F68 /* TMDBAPICallerTests.swift */,
 			);
 			path = TMDBAppTests;
 			sourceTree = "<group>";
@@ -198,9 +209,9 @@
 		79504FAD2AB627C20091A4CF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				79E4E21D2AB746B800C22F68 /* Extensions */,
 				79504F792AB6273E0091A4CF /* AppDelegate.swift */,
 				79504F7B2AB6273E0091A4CF /* SceneDelegate.swift */,
-				791002022AB63B16008AC5DF /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -230,6 +241,22 @@
 				79489F722AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		79E4E21D2AB746B800C22F68 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				791002022AB63B16008AC5DF /* String.swift */,
+				79E4E21E2AB746F900C22F68 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79E4E2202AB752F300C22F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +296,9 @@
 				79504F8E2AB6273F0091A4CF /* PBXTargetDependency */,
 			);
 			name = TMDBAppTests;
+			packageProductDependencies = (
+				79E4E2212AB752F300C22F68 /* SDWebImage */,
+			);
 			productName = TMDBAppTests;
 			productReference = 79504F8C2AB6273F0091A4CF /* TMDBAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -381,9 +411,10 @@
 				79504FB22AB628C20091A4CF /* TMDBHomeViewController.swift in Sources */,
 				79504FB82AB629270091A4CF /* TMDBMainTabBarViewController.swift in Sources */,
 				79504FC72AB62FF40091A4CF /* TMDBTitlePreviewViewModel.swift in Sources */,
-				791002032AB63B16008AC5DF /* Extensions.swift in Sources */,
+				791002032AB63B16008AC5DF /* String.swift in Sources */,
 				79504FBC2AB62CA30091A4CF /* TMDBCollectionViewTableViewCell.swift in Sources */,
 				79504F7C2AB6273E0091A4CF /* SceneDelegate.swift in Sources */,
+				79E4E21F2AB746F900C22F68 /* Double.swift in Sources */,
 				79504FC32AB62EE30091A4CF /* TMDBHeroHeaderUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,7 +423,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E4E2242AB7566800C22F68 /* TMDBHomeViewControllerTests.swift in Sources */,
 				79504F912AB6273F0091A4CF /* TMDBAppTests.swift in Sources */,
+				79E4E2262AB7652400C22F68 /* TMDBAPICallerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +590,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TMDBApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -584,7 +617,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TMDBApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -730,6 +763,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		79504FC02AB62DFB0091A4CF /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79504FBF2AB62DFB0091A4CF /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		79E4E2212AB752F300C22F68 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 79504FBF2AB62DFB0091A4CF /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;

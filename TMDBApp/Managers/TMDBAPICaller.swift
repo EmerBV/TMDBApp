@@ -178,5 +178,4 @@ final class TMDBAPICaller {
         
         task.resume()
     }
-
 }

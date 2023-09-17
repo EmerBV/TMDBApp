@@ -60,7 +60,7 @@ final class TMDBHomeViewController: UIViewController {
         }
     }
     
-    private func configureNavBar() {
+    internal func configureNavBar() {
         navigationItem.rightBarButtonItems = [
             UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .done, target: self, action: #selector(didTapSearch)),
         ]
@@ -78,7 +78,7 @@ final class TMDBHomeViewController: UIViewController {
         homeFeedTable.frame = view.bounds
     }
     
-    private func getTrendingMovies() {
+    internal func getTrendingMovies() {
         TMDBAPICaller.shared.getTrendingMovies { results in
             switch results {
             case .success(let movies):
@@ -87,6 +87,14 @@ final class TMDBHomeViewController: UIViewController {
                 print(error)
             }
         }
+    }
+    
+    func getHomeFeedTable() -> UITableView {
+        return homeFeedTable
+    }
+    
+    func getHeaderView() -> TMDBHeroHeaderUIView? {
+        return headerView
     }
 }
 

@@ -19,6 +19,7 @@ final class TMDBMainTabBarViewController: UITabBarController {
         vc1.tabBarItem.image = UIImage(systemName: "house.circle")
         vc1.title = "Home"
         vc1.navigationItem.largeTitleDisplayMode = .automatic
+        vc1.navigationBar.tintColor = .white
         
         tabBar.tintColor = .white
         tabBar.barTintColor = .black
