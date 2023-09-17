@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		791002012AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */; };
 		791002032AB63B16008AC5DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791002022AB63B16008AC5DF /* Extensions.swift */; };
+		79489F6F2AB70E890001E6D4 /* TMDBSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79489F6E2AB70E890001E6D4 /* TMDBSearchViewController.swift */; };
+		79489F712AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79489F702AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift */; };
+		79489F732AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79489F722AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift */; };
 		79504F7A2AB6273E0091A4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F792AB6273E0091A4CF /* AppDelegate.swift */; };
 		79504F7C2AB6273E0091A4CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F7B2AB6273E0091A4CF /* SceneDelegate.swift */; };
 		79504F832AB6273F0091A4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79504F822AB6273F0091A4CF /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 /* Begin PBXFileReference section */
 		791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitlePreviewViewController.swift; sourceTree = "<group>"; };
 		791002022AB63B16008AC5DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		79489F6E2AB70E890001E6D4 /* TMDBSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBSearchViewController.swift; sourceTree = "<group>"; };
+		79489F702AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitleTableViewCell.swift; sourceTree = "<group>"; };
+		79489F722AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBSearchResultsViewController.swift; sourceTree = "<group>"; };
 		79504F762AB6273E0091A4CF /* TMDBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79504F792AB6273E0091A4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79504F7B2AB6273E0091A4CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +181,7 @@
 				79504FBB2AB62CA30091A4CF /* TMDBCollectionViewTableViewCell.swift */,
 				79504FBD2AB62D9F0091A4CF /* TMDBTitleCollectionViewCell.swift */,
 				79504FC22AB62EE30091A4CF /* TMDBHeroHeaderUIView.swift */,
+				79489F702AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +218,7 @@
 			children = (
 				79504FB12AB628C20091A4CF /* TMDBHomeViewController.swift */,
 				79504FB72AB629270091A4CF /* TMDBMainTabBarViewController.swift */,
+				79489F6E2AB70E890001E6D4 /* TMDBSearchViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */,
+				79489F722AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -360,12 +369,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				79504FC52AB62F510091A4CF /* TMDBTitleViewModel.swift in Sources */,
+				79489F6F2AB70E890001E6D4 /* TMDBSearchViewController.swift in Sources */,
 				791002012AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift in Sources */,
+				79489F712AB7104A0001E6D4 /* TMDBTitleTableViewCell.swift in Sources */,
 				79504FCB2AB630A10091A4CF /* TMDBTitle.swift in Sources */,
 				79504FCD2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift in Sources */,
 				79504FBE2AB62D9F0091A4CF /* TMDBTitleCollectionViewCell.swift in Sources */,
 				79504FC92AB630530091A4CF /* TMDBAPICaller.swift in Sources */,
 				79504F7A2AB6273E0091A4CF /* AppDelegate.swift in Sources */,
+				79489F732AB711FA0001E6D4 /* TMDBSearchResultsViewController.swift in Sources */,
 				79504FB22AB628C20091A4CF /* TMDBHomeViewController.swift in Sources */,
 				79504FB82AB629270091A4CF /* TMDBMainTabBarViewController.swift in Sources */,
 				79504FC72AB62FF40091A4CF /* TMDBTitlePreviewViewModel.swift in Sources */,

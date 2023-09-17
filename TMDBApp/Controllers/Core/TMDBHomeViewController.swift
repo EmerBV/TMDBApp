@@ -62,9 +62,15 @@ final class TMDBHomeViewController: UIViewController {
     
     private func configureNavBar() {
         navigationItem.rightBarButtonItems = [
-            UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .done, target: self, action: nil),
+            UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .done, target: self, action: #selector(didTapSearch)),
         ]
         navigationController?.navigationBar.tintColor = .white
+    }
+
+    @objc private func didTapSearch() {
+        let vc = TMDBSearchViewController()
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     override func viewDidLayoutSubviews() {
