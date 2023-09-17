@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791002012AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */; };
+		791002032AB63B16008AC5DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791002022AB63B16008AC5DF /* Extensions.swift */; };
 		79504F7A2AB6273E0091A4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F792AB6273E0091A4CF /* AppDelegate.swift */; };
 		79504F7C2AB6273E0091A4CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F7B2AB6273E0091A4CF /* SceneDelegate.swift */; };
-		79504F7E2AB6273E0091A4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F7D2AB6273E0091A4CF /* ViewController.swift */; };
 		79504F832AB6273F0091A4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79504F822AB6273F0091A4CF /* Assets.xcassets */; };
 		79504F862AB6273F0091A4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79504F842AB6273F0091A4CF /* LaunchScreen.storyboard */; };
 		79504F912AB6273F0091A4CF /* TMDBAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F902AB6273F0091A4CF /* TMDBAppTests.swift */; };
 		79504F9B2AB6273F0091A4CF /* TMDBAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F9A2AB6273F0091A4CF /* TMDBAppUITests.swift */; };
 		79504F9D2AB6273F0091A4CF /* TMDBAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504F9C2AB6273F0091A4CF /* TMDBAppUITestsLaunchTests.swift */; };
 		79504FB22AB628C20091A4CF /* TMDBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FB12AB628C20091A4CF /* TMDBHomeViewController.swift */; };
-		79504FB42AB628E70091A4CF /* TMDBUpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FB32AB628E70091A4CF /* TMDBUpcomingViewController.swift */; };
-		79504FB62AB629060091A4CF /* TMDBSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FB52AB629060091A4CF /* TMDBSearchViewController.swift */; };
 		79504FB82AB629270091A4CF /* TMDBMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FB72AB629270091A4CF /* TMDBMainTabBarViewController.swift */; };
-		79504FBA2AB629470091A4CF /* TMDBDownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FB92AB629470091A4CF /* TMDBDownloadsViewController.swift */; };
+		79504FBC2AB62CA30091A4CF /* TMDBCollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FBB2AB62CA30091A4CF /* TMDBCollectionViewTableViewCell.swift */; };
+		79504FBE2AB62D9F0091A4CF /* TMDBTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FBD2AB62D9F0091A4CF /* TMDBTitleCollectionViewCell.swift */; };
+		79504FC12AB62DFB0091A4CF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 79504FC02AB62DFB0091A4CF /* SDWebImage */; };
+		79504FC32AB62EE30091A4CF /* TMDBHeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FC22AB62EE30091A4CF /* TMDBHeroHeaderUIView.swift */; };
+		79504FC52AB62F510091A4CF /* TMDBTitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FC42AB62F510091A4CF /* TMDBTitleViewModel.swift */; };
+		79504FC72AB62FF40091A4CF /* TMDBTitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FC62AB62FF40091A4CF /* TMDBTitlePreviewViewModel.swift */; };
+		79504FC92AB630530091A4CF /* TMDBAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FC82AB630530091A4CF /* TMDBAPICaller.swift */; };
+		79504FCB2AB630A10091A4CF /* TMDBTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FCA2AB630A10091A4CF /* TMDBTitle.swift */; };
+		79504FCD2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79504FCC2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitlePreviewViewController.swift; sourceTree = "<group>"; };
+		791002022AB63B16008AC5DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		79504F762AB6273E0091A4CF /* TMDBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79504F792AB6273E0091A4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79504F7B2AB6273E0091A4CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79504F7D2AB6273E0091A4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79504F822AB6273F0091A4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79504F852AB6273F0091A4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79504F872AB6273F0091A4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,10 +61,15 @@
 		79504F9A2AB6273F0091A4CF /* TMDBAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAppUITests.swift; sourceTree = "<group>"; };
 		79504F9C2AB6273F0091A4CF /* TMDBAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		79504FB12AB628C20091A4CF /* TMDBHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBHomeViewController.swift; sourceTree = "<group>"; };
-		79504FB32AB628E70091A4CF /* TMDBUpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBUpcomingViewController.swift; sourceTree = "<group>"; };
-		79504FB52AB629060091A4CF /* TMDBSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBSearchViewController.swift; sourceTree = "<group>"; };
 		79504FB72AB629270091A4CF /* TMDBMainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBMainTabBarViewController.swift; sourceTree = "<group>"; };
-		79504FB92AB629470091A4CF /* TMDBDownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBDownloadsViewController.swift; sourceTree = "<group>"; };
+		79504FBB2AB62CA30091A4CF /* TMDBCollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBCollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		79504FBD2AB62D9F0091A4CF /* TMDBTitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		79504FC22AB62EE30091A4CF /* TMDBHeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBHeroHeaderUIView.swift; sourceTree = "<group>"; };
+		79504FC42AB62F510091A4CF /* TMDBTitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitleViewModel.swift; sourceTree = "<group>"; };
+		79504FC62AB62FF40091A4CF /* TMDBTitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		79504FC82AB630530091A4CF /* TMDBAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPICaller.swift; sourceTree = "<group>"; };
+		79504FCA2AB630A10091A4CF /* TMDBTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBTitle.swift; sourceTree = "<group>"; };
+		79504FCC2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBYoutubeSearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79504FC12AB62DFB0091A4CF /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +127,6 @@
 				79504FAB2AB627B70091A4CF /* Views */,
 				79504FAA2AB627B30091A4CF /* ViewModels */,
 				79504FA92AB627B00091A4CF /* Controllers */,
-				79504F7D2AB6273E0091A4CF /* ViewController.swift */,
 				79504F822AB6273F0091A4CF /* Assets.xcassets */,
 				79504F842AB6273F0091A4CF /* LaunchScreen.storyboard */,
 				79504F872AB6273F0091A4CF /* Info.plist */,
@@ -150,6 +163,8 @@
 		79504FAA2AB627B30091A4CF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				79504FC42AB62F510091A4CF /* TMDBTitleViewModel.swift */,
+				79504FC62AB62FF40091A4CF /* TMDBTitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -157,6 +172,9 @@
 		79504FAB2AB627B70091A4CF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				79504FBB2AB62CA30091A4CF /* TMDBCollectionViewTableViewCell.swift */,
+				79504FBD2AB62D9F0091A4CF /* TMDBTitleCollectionViewCell.swift */,
+				79504FC22AB62EE30091A4CF /* TMDBHeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +182,8 @@
 		79504FAC2AB627BE0091A4CF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				79504FCA2AB630A10091A4CF /* TMDBTitle.swift */,
+				79504FCC2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +193,7 @@
 			children = (
 				79504F792AB6273E0091A4CF /* AppDelegate.swift */,
 				79504F7B2AB6273E0091A4CF /* SceneDelegate.swift */,
+				791002022AB63B16008AC5DF /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -180,6 +201,7 @@
 		79504FAE2AB627C50091A4CF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				79504FC82AB630530091A4CF /* TMDBAPICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -188,10 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				79504FB12AB628C20091A4CF /* TMDBHomeViewController.swift */,
-				79504FB32AB628E70091A4CF /* TMDBUpcomingViewController.swift */,
-				79504FB52AB629060091A4CF /* TMDBSearchViewController.swift */,
 				79504FB72AB629270091A4CF /* TMDBMainTabBarViewController.swift */,
-				79504FB92AB629470091A4CF /* TMDBDownloadsViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -199,6 +218,7 @@
 		79504FB02AB628170091A4CF /* General */ = {
 			isa = PBXGroup;
 			children = (
+				791002002AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -219,6 +239,9 @@
 			dependencies = (
 			);
 			name = TMDBApp;
+			packageProductDependencies = (
+				79504FC02AB62DFB0091A4CF /* SDWebImage */,
+			);
 			productName = TMDBApp;
 			productReference = 79504F762AB6273E0091A4CF /* TMDBApp.app */;
 			productType = "com.apple.product-type.application";
@@ -291,6 +314,9 @@
 				Base,
 			);
 			mainGroup = 79504F6D2AB6273E0091A4CF;
+			packageReferences = (
+				79504FBF2AB62DFB0091A4CF /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 79504F772AB6273E0091A4CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -333,14 +359,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79504F7E2AB6273E0091A4CF /* ViewController.swift in Sources */,
-				79504FB62AB629060091A4CF /* TMDBSearchViewController.swift in Sources */,
+				79504FC52AB62F510091A4CF /* TMDBTitleViewModel.swift in Sources */,
+				791002012AB63A52008AC5DF /* TMDBTitlePreviewViewController.swift in Sources */,
+				79504FCB2AB630A10091A4CF /* TMDBTitle.swift in Sources */,
+				79504FCD2AB6313B0091A4CF /* TMDBYoutubeSearchResponse.swift in Sources */,
+				79504FBE2AB62D9F0091A4CF /* TMDBTitleCollectionViewCell.swift in Sources */,
+				79504FC92AB630530091A4CF /* TMDBAPICaller.swift in Sources */,
 				79504F7A2AB6273E0091A4CF /* AppDelegate.swift in Sources */,
 				79504FB22AB628C20091A4CF /* TMDBHomeViewController.swift in Sources */,
-				79504FB42AB628E70091A4CF /* TMDBUpcomingViewController.swift in Sources */,
 				79504FB82AB629270091A4CF /* TMDBMainTabBarViewController.swift in Sources */,
+				79504FC72AB62FF40091A4CF /* TMDBTitlePreviewViewModel.swift in Sources */,
+				791002032AB63B16008AC5DF /* Extensions.swift in Sources */,
+				79504FBC2AB62CA30091A4CF /* TMDBCollectionViewTableViewCell.swift in Sources */,
 				79504F7C2AB6273E0091A4CF /* SceneDelegate.swift in Sources */,
-				79504FBA2AB629470091A4CF /* TMDBDownloadsViewController.swift in Sources */,
+				79504FC32AB62EE30091A4CF /* TMDBHeroHeaderUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,8 +546,8 @@
 				INFOPLIST_FILE = TMDBApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,8 +573,8 @@
 				INFOPLIST_FILE = TMDBApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -672,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79504FBF2AB62DFB0091A4CF /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79504FC02AB62DFB0091A4CF /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79504FBF2AB62DFB0091A4CF /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79504F6E2AB6273E0091A4CF /* Project object */;
 }
